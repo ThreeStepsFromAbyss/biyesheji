@@ -1,0 +1,253 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="jquery-labelauty.css">
+<title>溆浦县顺成服装有限公司</title>
+</head>
+
+<body>
+	<!-- site-top-nav部分 start-->
+	<div class="site-top-nav">
+		<div class="w clearfix">
+			<div class="fl top-nav-left"><em></em> <a href="#">首页</a> <strong class="line"></strong> 客户专线：400-xxx-xxxx <em></em></div>
+			<div class="fr top-nav-right">
+				<ul>
+					<li>
+						<a href="#">登录</a>
+						<b class="line"></b>
+					</li>				 
+					<li>
+						<a href="#">注册</a>
+						<b class="line"></b> 
+					</li>
+					<li class="about-me">
+						<a class="triangle" href="#">个人中心</a>
+						<b class="line"></b>
+					</li>				 
+					<li>
+						<a  href="#">帮助中心</a>
+						<b class="line"></b>
+					</li>
+					<li class="download">
+						<a class="qr-code" href="#">
+						手机下载
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- site-top-nav部分 end-->
+	<!--search部分 start-->
+		<div class="w search clearfix">
+			<div class="fl search-logo">
+				<a href="#"><img class="logo" src="img/logo.png" title="溆浦县顺成服装有限公司" alt=""></a>
+				<a href="#"><img class="good-life" src="img/slogan.png" title="溆浦县顺成服装有限公司" alt=""></a>
+			</div>
+			<div class="search-input">
+				<input type="text" value="秋季制服"/>
+            	<button>搜 索</button>
+			</div>
+		</div>
+	<!--search部分 end-->
+		<!--shortcut部分 start-->
+	<div class="shortcut clearfix">
+		<div class="w">
+			<div class="shortcut-nav">
+				<ul>
+					<li><a href="userlist.php">查看留言</a></li>
+					<li><a href="index.html">首页</a></li>
+					<li><a href="about.html">公司简介</a></li>
+					<li><a href="Certificate.html">荣誉资质</a></li>
+					<li><a href="newscenter.html">新闻中心</a></li>
+					<li><a href="workshop.html">车间展示</a></li>
+					<li><a href="map.html">地理位置</a></li>
+					<li><a href="form.html">联系我们</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+<!--shortcut部分 end-->
+<!--details部分 start-->
+	<div class="detailsbox clearfix">
+		<img src="img/818_P_1516780617082.jpg" alt="">
+		<h1>夏季工服样式一</h1>
+		<h2>请选择尺码大小：</h2>
+		<ul class="dowebok">
+		<li><input type="radio" name="radio" data-labelauty="165/88A"></li>
+		<li><input type="radio" name="radio" data-labelauty="170/92A"></li>
+		<li><input type="radio" name="radio" data-labelauty="175/96A"></li>
+		<li><input type="radio" name="radio" data-labelauty="180/100A"></li>
+		<li><input type="radio" name="radio" data-labelauty="185/104A"></li>
+		</ul>
+		<ul class="btn-numbox">
+            <li><span class="number">数量</span></li>
+            <li>
+                <ul class="count">
+                    <li><span id="num-jian" class="num-jian">-</span></li>
+                    <li><input type="text" class="input-num" id="input-num" value="0" /></li>
+                    <li><span id="num-jia" class="num-jia">+</span></li>
+                </ul>
+            </li>
+            <li><span class="kucun">（库存:54）</span></li>
+　　　   </ul>
+		
+       <button name="submit" type="submit" >立即购买</button>
+		<br/>
+		</div>
+		<script>
+		 var num_jia = document.getElementById("num-jia");
+        var num_jian = document.getElementById("num-jian");
+        var input_num = document.getElementById("input-num");
+
+        num_jia.onclick = function() {
+
+            input_num.value = parseInt(input_num.value) + 1;
+        }
+
+        num_jian.onclick = function() {
+
+            if(input_num.value <= 0) {
+                input_num.value = 0;
+            } else {
+
+                input_num.value = parseInt(input_num.value) - 1;
+            }
+
+        }
+		</script>
+		<script src="js/jquery-1.8.3.min.js"></script>
+		<script src="js/jquery-labelauty.js"></script>
+	<script>
+		$(function(){
+		$(':input').labelauty();
+		});
+	</script>
+<!--details部分 end-->
+<!-- footerm-top start-->
+	<div class="footer-message">
+        <div class="w">
+            <!-- footerm-top start-->
+
+            <div class="footerm-top">
+                <ul>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="img/footer_message01.jpg" alt=""/>
+                        </a>
+                        <div>
+                            <p>优质原料</p>
+                            <p><a href="javascript:;">使用优质原料保证品质</a></p>
+                        </div>
+                    </li>
+                    <li><a href="javascript:;"><img src="img/footer_message02.jpg" alt=""/></a>
+                        <div>
+                            <p>专车配送</p>
+                            <p><a href="javascript:;">全国高效专车配送</a></p>
+                        </div></li>
+                    <li><a href="javascript:;"><img src="img/footer_message03.jpg" alt=""/></a>
+                        <div>
+                            <p>无忧售后</p>
+                            <p><a href="javascript:;">7天无理由退换货</a></p>
+                        </div>
+                    </li>
+                    <li><a href="javascript:;"><img src="img/footer_message04.jpg" alt=""/></a>
+                        <div>
+                            <p>VIP服务</p>
+                        <p><a href="javascript:;">享会员售前售后服务</a></p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- footerm-top end-->
+
+
+            <!-- footerm-middle start-->
+            <div class="footerm-middle">
+                <div class="footerm-middle-left clearfix">
+                    <dl>
+                        <dt>服务保障</dt>
+                        <dd><a href="javascript:;">品牌授权正品</a></dd>
+                        <dd><a href="javascript:;">品牌客服</a></dd>
+                        <dd><a href="javascript:;">预约到店体验</a></dd>
+                        <dd><a href="javascript:;">7天无理由退换</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>使用帮助</dt>
+                        <dd><a href="javascript:;">常见问题</a></dd>
+                        <dd><a href="javascript:;">会员制度</a></dd>
+                        <dd><a href="javascript:;">集团采购</a></dd>
+                        <dd><a href="javascript:;">礼品卡</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>支付方式</dt>
+                        <dd><a href="javascript:;">到店付款</a></dd>
+                        <dd><a href="javascript:;">货到付款</a></dd>
+                        <dd><a href="javascript:;">在线支付</a></dd>
+                        <dd><a href="javascript:;">余额支付</a></dd>
+                        <dd><a href="javascript:;">分期付款</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>配送方式</dt>
+                        <dd><a href="javascript:;">配送说明</a></dd>
+                        <dd><a href="javascript:;">到店自提</a></dd>
+                        <dd><a href="javascript:;">运费说明</a></dd>
+                        <dd><a href="javascript:;">验货签收</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>售后服务</dt>
+                        <dd><a href="javascript:;">品牌售后</a></dd>
+                        <dd><a href="javascript:;">售后咨询</a></dd>
+                        <dd><a href="javascript:;">退换政策</a></dd>
+                        <dd><a href="javascript:;">发票保障</a></dd>
+                    </dl>
+                <div class="footerm-middle-right clearfix">
+                </div>
+            </div>
+
+        </div>
+        <!-- footerm-middle end-->
+
+        <!-- footerm-bottom start-->
+        <div class="footerm-bottom">
+            <div class="footerm-bottom-tp">
+                <a href="javascript:;">箱包</a>|
+                <a href="javascript:;">美妆</a>|
+                <a href="javascript:;">服饰</a>|
+                <a href="javascript:;">腕表</a>|
+                <a href="javascript:;">配饰</a>|
+                <a href="javascript:;">鞋靴</a>|
+                <a href="javascript:;">特惠</a>|
+                <a href="javascript:;">名品闪购</a>|
+                <a href="javascript:;">礼品区</a>
+            </div>
+            <div class="footerm-bottom-md">
+                <a href="javascript:;">关于顺成服装</a>|
+                <a href="javascript:;">网站地图</a>|
+                <a href="javascript:;">品牌合作专区</a>|
+                <a href="javascript:;">媒体聚焦</a>|
+                <a href="javascript:;">商务合作</a>|
+                <a href="javascript:;">商家合作</a>|
+                <a href="javascript:;">加入顺成服装</a>|
+                <a href="javascript:;">友情链接</a>|
+                <a href="javascript:;">奢尚志</a>
+                <p>&nbsp Copyright © 2008-2020 溆浦县顺成服装有限公司&nbsp; 版权所有湘ICP备123456789号-1
+                </p>
+            </div>
+			<!--
+            <div class="footerm-bottom-bm">
+                <a href="javascript:;"><img src="images/footer_message08.jpg" /></a>
+                <a href="javascript:;"><img src="images/footer_message09.jpg" /></a>
+                <a href="javascript:;"><img src="images/footer_message10.jpg" /></a>
+                <a href="javascript:;"><img src="images/footer_message11.jpg" /></a>
+            </div>
+			-->
+        </div>
+	   </div>
+    </div>
+        <!-- footerm-bottom end-->
+
+</body>
+</html>
